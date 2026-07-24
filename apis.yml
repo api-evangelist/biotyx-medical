@@ -1,24 +1,60 @@
 aid: biotyx-medical
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/biotyx-medical.png
 name: Biotyx Medical
-description: 'Biotyx Medical is a company surfaced as a portfolio company of idg-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Biotyx Medical (Shenzhen) Co., Ltd. is a medical device company founded
+  in 2019 as a subsidiary of LifeTech Scientific Corporation (HKEX: 01302), headquartered
+  in Shenzhen, China. It develops iron-based bioresorbable vascular scaffolds (the IBS
+  platform) for coronary, peripheral, and congenital cardiovascular disease, and is
+  the only company in the world commercializing iron-based bioresorbable stents. Its
+  products include the IBS Coronary Scaffold, IBS Titan peripheral scaffold, and IBS
+  Angel pulmonary artery scaffold, with NMPA innovative-device approvals, US and Malaysia
+  sales licenses, and CE certification. This is a medical device manufacturer with no
+  public developer, API, or technology-platform surface; it was surfaced as a portfolio
+  company of IDG Capital and added to the API Evangelist network for tracking.'
 url: https://raw.githubusercontent.com/api-evangelist/biotyx-medical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - idg-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Medical Devices
+- Cardiovascular
+- Bioresorbable Scaffold
+- Medtech
+- Life Sciences
 apis: []
+common:
+- type: Website
+  url: https://www.biotyxmed.com/en_index.html
+- type: About
+  url: https://www.biotyxmed.com/en_about.html
+- type: LinkedIn
+  url: https://cn.linkedin.com/company/biotyxmedical
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
